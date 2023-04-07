@@ -1,0 +1,35 @@
+{
+  "name": "assignment1",
+  "version": "1.0.0",
+  "description": "Node Server",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles",
+    "start": "node server.js"
+  },
+  "author": "Abhilash Gade",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1325.0",
+    "base-64": "^1.0.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "hot-shots": "^10.0.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "multer-s3": "^3.0.1",
+    "mysql2": "^3.0.1",
+    "path": "^0.12.7",
+    "s3": "^4.4.0",
+    "sequelize": "^6.28.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.4.1",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.3"
+  }
+}
